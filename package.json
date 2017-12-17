@@ -1,0 +1,14 @@
+{
+  "name": "database-login",
+  "version": "1.0.0",
+  "description": "Database Login Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dogwood Creative LLC",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
