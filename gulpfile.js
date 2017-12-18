@@ -28,7 +28,7 @@ gulp.task('serve', function(){
     var server = gls.static('dist', 3000);
     server.start();
 
-    gulp.watch(['dist/**/*.css', 'dist/**/*.html'], function(file){
+    gulp.watch(['src/**'], function(file){
         server.notify.apply(server, [file]);
     });
 });

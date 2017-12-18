@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+}
+
+#login-form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+
+    .input__label {
+        text-align: left;
+        position: relative;
+        top: 39px;
+        padding: 0 0 0 0.5em;
+        color: #717171;
+    }
+
+    input {
+        width: 100%;
+        display: block;
+        height: 20px;
+        padding: 0.4em;
+        font-size: 1.2em;
+        margin: 0.5em 0;
+    }
+
+    button {
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+        padding: 0.5em;
+        border: none;
+        color: $white;
+        background: $black;
+        font-size: 1em;
+        margin: 0.5em;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+}
+
+#no-user {
+    display: none;
+}
